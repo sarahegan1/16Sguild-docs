@@ -339,7 +339,7 @@ Resume the pipeline.
 
 ### Part 3
 
-Part 3 is involved with generating phylogenetic trees to run alpha rarefaction. This part takes approximately 15 minutes with 8 CPUs and 32 GB of memory allocated to each job..
+Part 3 is involved with generating phylogenetic trees to run alpha rarefaction. This part takes approximately 15 minutes with 8 CPUs and 32 GB of memory allocated to each job.
 
 At the end of Part 3, users need to select the sampling depth value for alpha rarefaction. This graph can be found at `results/visualization/s14_alphaRarefaction/s14_input_alpha-rarefaction.qzv`. Load this file into the [QIIME2 Viewer](https://view.qiime2.org/) and use the `observed_features` metric. Observe the graph and identify where the curves begin to flatten for each sample ID:
 
